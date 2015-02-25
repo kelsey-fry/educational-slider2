@@ -1,0 +1,92 @@
+#background {
+	background: aliceblue;
+}
+
+img body {
+	margin-left: auto;
+	margin-right:auto;
+}
+
+header {
+	background: aliceblue;
+	color: slategray;
+	font-family: garamond;
+	font-size: 300%;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+iframe{
+	/* width: 100%; */
+	width: 100% !important;
+	height: 533px;
+	overflow: hidden;
+	}
+	
+iframe:focus {
+    outline: none;
+}
+
+iframe[seamless] {
+    display: block;
+} 
+
+img iframe {
+	display: block;
+	max-width: 800px;
+	overflow: hidden;
+	}
+
+.slickQuiz{
+	width: 100%;
+	}
+	
+#zoom {
+	display:inline;
+	position: absolute;
+	float:left;
+	margin-left: -70px;
+	margin-top: 400px;
+}
+
+li #zoom {
+	display:inline;
+	position: absolute;
+	float:left;
+	margin-left: -70px;
+	margin-top: 400px;
+}
+
+.tip1 {
+  display: inline;
+  float: left;
+  position:absolute;
+  max-width: 100%;
+  top: 235px;
+  left: 280px;
+}
+
+img .tip1 {
+	max-width: 100%;
+	}
+	
+img .tips {
+	overflow: hidden;
+}
+
+
+.tips {
+	overflow: hidden;
+
+}
+
+.container {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+/*#slide6 {
+	background-image: url("images/3.jpg");
+	height: 667px;
+}
+*/

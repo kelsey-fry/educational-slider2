@@ -1,1 +1,2 @@
-# educational-slider2
+# educational-slider
+second project for class
