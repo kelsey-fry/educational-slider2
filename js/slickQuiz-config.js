@@ -6,7 +6,7 @@ var quizJSON = {
     "info": {
         "name":    "Test Your Knowledge of the L.o.C. Classification System",
         "main":    "<p>Hope you studied...here we go!</p>",
-        "results": "<h5>Learn More</h5><p>Etiam scelerisque, nunc ac egestas consequat, odio nibh euismod nulla, eget auctor orci nibh vel nisi. Aliquam erat volutpat. Mauris vel neque sit amet nunc gravida congue sed sit amet purus.</p>",
+        "results": "<h5>Learn More</h5><p>Sources for this slider project include the <a href='http://loc.gov'>Library of Congress</a> website and the <a href='http://www.library.unc.edu'>UNC library</a> website.  All photographs, aside from screenshots, are my own.</p>",
         "level1":  "Master Librarian! You should enroll in UNC SILS!",
         "level2":  "Almost Master Librarian",
         "level3":  "Elementary Librarian",
@@ -45,39 +45,14 @@ var quizJSON = {
 		"incorrect": "<p><span>Sorry!</span> You'll get 'em next time." // no comma here
 	},
 	
-        // { // Question 2 - Multiple Choice, Multiple True Answers, Select Any
-            // "q": "Which of the following best represents your preferred breakfast?",
-            // "a": [
-                // {"option": "Bacon and eggs",               "correct": false},
-                // {"option": "Fruit, oatmeal, and yogurt",   "correct": true},
-                // {"option": "Leftover pizza",               "correct": false},
-                // {"option": "Eggs, fruit, toast, and milk", "correct": true} // no comma here
-            // ],
-            // "select_any": true,
-            // "correct": "<p><span>Nice!</span> Your cholestoral level is probably doing alright.</p>",
-            // "incorrect": "<p><span>Hmmm.</span> You might want to reconsider your options.</p>" // no comma here
-        // },
-        // { // Question 3 - Multiple Choice, Multiple True Answers, Select All
-            // "q": "Where are you right now? Select ALL that apply.",
-            // "a": [
-                // {"option": "Planet Earth",           "correct": true},
-                // {"option": "Pluto",                  "correct": false},
-                // {"option": "At a computing device",  "correct": true},
-                // {"option": "The Milky Way",          "correct": true} // no comma here
-            // ],
-            // "correct": "<p><span>Brilliant!</span> You're seriously a genius, (wo)man.</p>",
-            // "incorrect": "<p><span>Not Quite.</span> You're actually on Planet Earth, in The Milky Way, At a computer. But nice try.</p>" // no comma here
-        // },
         { // Question 4
-            "q": "How many inches of rain does Michigan get on average per year?",
+            "q": "True or False, Herbert Putnam was Librarian of Congress for 40 years.",
             "a": [
-                {"option": "149",    "correct": false},
-                {"option": "32",     "correct": true},
-                {"option": "3",      "correct": false},
-                {"option": "1291",   "correct": false} // no comma here
+                {"option": "True",    "correct": true},
+                {"option": "False",     "correct": false} // no comma here
             ],
-            "correct": "<p><span>Holy bananas!</span> I didn't actually expect you to know that! Correct!</p>",
-            "incorrect": "<p><span>Fail.</span> Sorry. You lose. It actually rains approximately 32 inches a year in Michigan.</p>" // no comma here
+            "correct": "<p><span>Yay!</span> You got it! (40 years is a long time, huh?)</p>",
+            "incorrect": "<p><span>Sorry!</span> It's okay that you're wrong...</p>" // no comma here
         },
         { // Question 5
             "q": "True or False, Most research and academic libraries (like at UNC) use the L.o.C classification system.",

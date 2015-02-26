@@ -11,7 +11,7 @@ header {
 	background: aliceblue;
 	color: slategray;
 	font-family: garamond;
-	font-size: 300%;
+	font-size: 2em;
 	padding: 10px;
 	margin-bottom: 20px;
 }
@@ -43,7 +43,7 @@ img iframe {
 	
 #zoom {
 	display:inline;
-	position: absolute;
+	position: relative;
 	float:left;
 	margin-left: -70px;
 	margin-top: 400px;
@@ -51,26 +51,39 @@ img iframe {
 
 li #zoom {
 	display:inline;
-	position: absolute;
+	position: relative;
 	float:left;
 	margin-left: -70px;
 	margin-top: 400px;
 }
+
+.bookshelf {
+  display: inline;
+  float: left;
+  position:absolute;
+  max-width: 100%;
+  /* top: 235px; */
+  top: 55%;
+  left: 55%;
+  }
 
 .tip1 {
   display: inline;
   float: left;
   position:absolute;
   max-width: 100%;
-  top: 235px;
-  left: 280px;
+  /* top: 235px; */
+  top: 33%;
+  left: 22%;
 }
 
-img .tip1 {
-	max-width: 100%;
-	}
+/* img .tip1 {
+	max-width: 20%;
+	height: auto;
+	} */
 	
 img .tips {
+	max-width: 100%;
 	overflow: hidden;
 }
 
@@ -82,9 +95,21 @@ img .tips {
 
 .container {
   position: relative;
-  height: 100%;
+/*   height: 100%; */
   overflow: hidden;
 }
+
+#history {
+	font-family: Garamond;
+	font-size: 1.1em;
+	color: #2f4f4f;
+}
+
+h1 #history {
+	font-size: 1.3em;
+	
+}
+
 /*#slide6 {
 	background-image: url("images/3.jpg");
 	height: 667px;
